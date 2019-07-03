@@ -4,8 +4,8 @@ a {
 
 nav {
     font-family: monospace;
-    width: 20%;
-    float: left;
+    width: 40%;
+    height: 100%;
 }
 
 ul {
@@ -17,13 +17,13 @@ ul {
 
 li {
     color: #fff;
-  background: darkorange;
+    background: darkorange;
     display: block;
     float: left;
     padding: 1rem;
     position: relative;
     text-decoration: none;
-  transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
   
 li a {

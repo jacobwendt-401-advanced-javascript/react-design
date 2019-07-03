@@ -6,7 +6,7 @@ const Header = () => {
   return(
     <div class='header'>
       <Nav />
-      <h1>Header</h1>
+      <h1>React Design Challenge</h1>
     </div>
   );
 };

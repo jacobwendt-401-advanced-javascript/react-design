@@ -10,13 +10,8 @@ function App() {
   return (
     <div className="App">
       <div class='wrapper'>
-        <Header>
-
-        </Header >
-        <Lorem />
-        <div class="push"></div>
+        <Header />
       </div>
-        <Footer />
     </div>
   );
 }
