@@ -1,0 +1,22 @@
+import React from 'react';
+import Styles from './style.scss';
+
+const Nav = () => {
+  return(
+    <nav role="navigation">
+      <ul>
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a>
+          <ul class="dropdown">
+            <li><a href="#">Sub-1</a></li>
+            <li><a href="#">Sub-2</a></li>
+            <li><a href="#">Sub-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Three</a></li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Nav;
